@@ -18,9 +18,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/etcd-io/zetcd"
+	"github.com/sleepymole/zetcd"
 
-	"github.com/coreos/etcd/integration"
+	"go.etcd.io/etcd/tests/v3/integration"
 )
 
 type zetcdCluster struct {

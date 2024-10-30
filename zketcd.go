@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	etcd "github.com/coreos/etcd/clientv3"
-	v3sync "github.com/coreos/etcd/clientv3/concurrency"
 	"github.com/golang/glog"
+	etcd "go.etcd.io/etcd/client/v3"
+	v3sync "go.etcd.io/etcd/client/v3/concurrency"
 )
 
 type zkEtcd struct {

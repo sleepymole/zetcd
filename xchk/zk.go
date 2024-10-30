@@ -19,8 +19,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/etcd-io/zetcd"
 	"github.com/golang/glog"
+	"github.com/sleepymole/zetcd"
 )
 
 // zkXchk takes incoming ZK requests and forwards them to a remote ZK server

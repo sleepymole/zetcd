@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/etcd-io/zetcd"
+	"github.com/sleepymole/zetcd"
 
-	"github.com/samuel/go-zookeeper/zk"
+	"github.com/go-zookeeper/zk"
 )
 
 var (

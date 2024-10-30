@@ -19,8 +19,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/etcd-io/zetcd"
 	"github.com/golang/glog"
+	"github.com/sleepymole/zetcd"
 	"golang.org/x/net/context"
 )
 

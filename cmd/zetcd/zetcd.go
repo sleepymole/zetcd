@@ -24,12 +24,12 @@ import (
 	"os"
 	"strings"
 
-	etcd "github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/etcd-io/zetcd"
-	"github.com/etcd-io/zetcd/version"
-	"github.com/etcd-io/zetcd/xchk"
-	"github.com/etcd-io/zetcd/zk"
+	"github.com/sleepymole/zetcd"
+	"github.com/sleepymole/zetcd/version"
+	"github.com/sleepymole/zetcd/xchk"
+	"github.com/sleepymole/zetcd/zk"
+	"go.etcd.io/etcd/client/pkg/v3/transport"
+	etcd "go.etcd.io/etcd/client/v3"
 	"golang.org/x/net/context"
 )
 

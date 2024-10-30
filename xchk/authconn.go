@@ -17,7 +17,7 @@ package xchk
 import (
 	"fmt"
 
-	"github.com/etcd-io/zetcd"
+	"github.com/sleepymole/zetcd"
 )
 
 // authConn implements an AuthConn that can fork off xchked AuthConns

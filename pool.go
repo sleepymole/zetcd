@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	etcd "github.com/coreos/etcd/clientv3"
 	"github.com/golang/glog"
+	etcd "go.etcd.io/etcd/client/v3"
 )
 
 type SessionPool struct {

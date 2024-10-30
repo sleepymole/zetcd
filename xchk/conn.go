@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/etcd-io/zetcd"
 	"github.com/golang/glog"
+	"github.com/sleepymole/zetcd"
 )
 
 // conn implements a Conn that xchks several conns

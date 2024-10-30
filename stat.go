@@ -15,7 +15,7 @@
 package zetcd
 
 import (
-	etcd "github.com/coreos/etcd/clientv3"
+	etcd "go.etcd.io/etcd/client/v3"
 )
 
 func statGetsRev(p string, rev int64) []etcd.Op {

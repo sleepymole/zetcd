@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/etcd-io/zetcd"
+	"github.com/sleepymole/zetcd"
 )
 
 type sessCreds struct {

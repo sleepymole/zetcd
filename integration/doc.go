@@ -20,5 +20,5 @@ package integration
 
 // force import so glide picks it up
 import (
-	_ "github.com/coreos/etcd/integration"
+	_ "go.etcd.io/etcd/tests/v3/integration"
 )
