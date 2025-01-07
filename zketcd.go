@@ -582,7 +582,9 @@ func (z *zkEtcd) Close(xid Xid, op *CloseRequest) ZKResponse {
 	return mkZKResp(xid, zxid, &CloseResponse{})
 }
 
-func (z *zkEtcd) SetAuth(xid Xid, op *SetAuthRequest) ZKResponse { panic("setAuth") }
+func (z *zkEtcd) SetAuth(xid Xid, op *SetAuthRequest) ZKResponse {
+	return mkZKResp(xid, z.s.ZXid(), &SetAuthResponse{})
+}
 
 func (z *zkEtcd) SetWatches(xid Xid, op *SetWatchesRequest) ZKResponse {
 	for _, dw := range op.DataWatches {

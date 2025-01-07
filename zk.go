@@ -62,6 +62,8 @@ func DispatchZK(zk ZK, xid Xid, op interface{}) ZKResponse {
 		return zk.SetWatches(xid, op)
 	case *MultiRequest:
 		return zk.Multi(xid, op)
+	case *SetAuthRequest:
+		return zk.SetAuth(xid, op)
 	default:
 		fmt.Printf("unexpected type %d %T\n", xid, op)
 	}
